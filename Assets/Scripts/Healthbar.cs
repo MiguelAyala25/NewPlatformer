@@ -9,7 +9,7 @@ public class Healthbar : MonoBehaviour
     public static Healthbar Instance { get; private set; }
 
     [SerializeField] private Image healthbar;
-    [SerializeField] private int healthAmount=100;
+    [SerializeField] private int healthAmount=50;
 
     private void Awake()
     {
